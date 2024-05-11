@@ -10,5 +10,8 @@ public class LoopEx8 {
             }
             System.out.println();
         }
+        System.out.println("git update test");
+        System.out.println("...");
+        System.out.println("Sucess!");
     }
 }
