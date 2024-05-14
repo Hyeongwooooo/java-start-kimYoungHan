@@ -1,13 +1,13 @@
 package method;
 
-public class MethodCasting1 {
+public class MethodCasting2 {
 
     public static void main(String[] args) {
-        double number = 1.5;
-        printNumber((int) number);
+        int number = 100;
+        printNumber(number);
     }
 
-    public static void printNumber(int n) {
+    public static void printNumber(double n) {
         System.out.println("숫자 : " + n);
     }
 }
